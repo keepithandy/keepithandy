@@ -1,6 +1,6 @@
 # Hi, I’m John / keepithandy
 
-I build browser-based RPGs, reusable game-engine systems, and practical developer tools. My projects usually sit in the same lane: small playable systems, clean documentation, repeatable workflows, and tools that make future builds easier instead of messier.
+I build browser-based RPGs, reusable game-engine systems, read-only dashboards, and practical developer tools. My projects usually sit in the same lane: small playable systems, clean documentation, repeatable workflows, and tools that make future builds easier instead of messier.
 
 Right now I’m building in public and using GitHub as a working portfolio: not just finished products, but proof that I can design systems, ship patches, document decisions, and keep projects moving.
 
@@ -11,19 +11,23 @@ A solo-developed browser dungeon crawler focused on compact mobile play, readabl
 
 DungeonDex is my main systems-design project. It’s where I practice careful feature gates, smoke testing, save-safety, progression design, and long-term RPG architecture.
 
+### [dev-kit](https://github.com/keepithandy/dev-kit)
+A Python command-line toolkit for read-only project audits and release hygiene. It checks local repo folders for version-label drift, baseline files, smoke-script coverage, and Markdown report output.
+
+This is part of my push to build useful non-JavaScript tooling around the projects I already maintain.
+
 ### [Depth Engine](https://github.com/keepithandy/depth-engine)
 A lightweight browser RPG engine foundation built with plain HTML, CSS, and JavaScript. It separates reusable engine logic from example game content so future RPG themes can be copied, studied, and reshaped without starting from zero.
 
 Current example: **Rat Cellar**, a simple proof-of-loop for combat, XP, loot, equipment, saves, export/import, and reset flows.
 
-### [dev-kit](https://github.com/keepithandy/dev-kit)
-A Python command-line toolkit for read-only project audits and release hygiene. It is aimed at practical repo maintenance: version checks, baseline audits, and Markdown reporting.
+### [NovaDeck Analyst](https://github.com/keepithandy/crypto-analyst)
+A mock-first, read-only crypto analysis dashboard starter focused on watchlists, market summaries, invalidation levels, scenario review, and LONG / SHORT / WATCH / FLAT trade-readiness labels.
 
-This is part of my push to build useful non-JavaScript tooling around the projects I already maintain.
+NovaDeck Analyst is a research dashboard, not trade execution software.
 
 ## Secondary and Early-Stage Projects
 
-- [NovaDeck](https://github.com/keepithandy/nova-deck) — a planned research dashboard for digital-asset notes, watchlists, market summaries, and review checklists. Read-only and research-focused, not trade execution.
 - [guildmasters](https://github.com/keepithandy/guildmasters) — an early game/project concept for guild-style progression and management systems.
 - [repair-tool-kit](https://github.com/keepithandy/repair-tool-kit) — a planned Windows maintenance and diagnostic toolkit.
 - [crafting-kit](https://github.com/keepithandy/crafting-kit) — an early utility/project shell still being shaped.
@@ -50,9 +54,10 @@ I work across:
 Right now I’m focused on:
 
 1. Continuing DungeonDex as the main RPG systems project.
-2. Strengthening Depth Engine into a reusable starter foundation.
-3. Growing dev-kit into a practical audit/reporting tool.
-4. Keeping early projects organized enough that they can become real portfolio pieces instead of forgotten folders.
+2. Growing dev-kit into a practical audit/reporting tool.
+3. Strengthening Depth Engine into a reusable starter foundation.
+4. Keeping NovaDeck Analyst scoped as a read-only dashboard project.
+5. Keeping early projects organized enough that they can become real portfolio pieces instead of forgotten folders.
 
 ## How I Work
 

@@ -32,6 +32,20 @@ NovaDeck Analyst is a research dashboard, not trade execution software.
 - [repair-tool-kit](https://github.com/keepithandy/repair-tool-kit) — a planned Windows maintenance and diagnostic toolkit.
 - [crafting-kit](https://github.com/keepithandy/crafting-kit) — an early utility/project shell still being shaped.
 
+## Current Roadmap
+
+| Repo | Type | Status | Next useful issue |
+| --- | --- | --- | --- |
+| [DungeonDex](https://github.com/keepithandy/DungeonDex) | Browser RPG | Main active project | Board Echo v1 and Debt Pressure v1 clarity/recovery |
+| [dev-kit](https://github.com/keepithandy/dev-kit) | Python developer tool | Active tooling repo | Portfolio audit mode across sibling repos |
+| [Depth Engine](https://github.com/keepithandy/depth-engine) | Browser RPG engine foundation | Active reusable-engine prototype | Add a third bundled example to prove content authoring |
+| [NovaDeck Analyst](https://github.com/keepithandy/crypto-analyst) | Read-only dashboard | Early v0.1 foundation | Mock dashboard shell and deterministic risk engine |
+| [merge-guard](https://github.com/keepithandy/merge-guard) | PR safety CLI | Active developer tool | Suggest project-specific smoke/test commands |
+| [guildmasters](https://github.com/keepithandy/guildmasters) | Idle guild-management game | Early playable loop | Add a compact Guild Log for contract history |
+| [crafting-kit](https://github.com/keepithandy/crafting-kit) | Reusable crafting systems | Early validator/tooling repo | Add a read-only crafting dry-run simulator |
+| [repair-tool-kit](https://github.com/keepithandy/repair-tool-kit) | Windows repair workflow docs/tooling | Planning-first safety repo | Add a safe maintenance checklist and notes template |
+| [DungeonDex3D](https://github.com/keepithandy/DungeonDex3D) | Experimental 3D dungeon prototype | Archive-adoption phase | Extract source archive, define run commands, then build a graybox slice |
+
 ## What I’m Building Toward
 
 I’m interested in the overlap between game design, systems thinking, AI-assisted development, and developer productivity. The long-term goal is to build a reusable foundation for browser-based RPGs while also creating practical tools that help with real development work.

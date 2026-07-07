@@ -13,6 +13,16 @@ Right now I’m building in public and using GitHub as a working portfolio: not 
 - [merge-guard](https://github.com/keepithandy/merge-guard) — a pull request risk scanner for safer merges.
 - [dev-kit](https://github.com/keepithandy/dev-kit) — a Python release-hygiene and repo-audit CLI.
 
+## Quick Proof Points
+
+| Project | What to look at first | Proof signal |
+| --- | --- | --- |
+| [DungeonDex](https://github.com/keepithandy/DungeonDex) | Current build notes, live systems list, and smoke target | Main RPG has playable loops, merchant gear upgrades, memory lanes, and compact smoke coverage. |
+| [Depth Engine](https://github.com/keepithandy/depth-engine) | Bundled examples and smoke checks | Same engine core runs Rat Cellar, Arena Waves, and Sewer Patrol with no build step. |
+| [merge-guard](https://github.com/keepithandy/merge-guard) | Example CLI output and risk report format | Produces merge-readiness reports from diffs, including risk flags and suggested checks. |
+| [dev-kit](https://github.com/keepithandy/dev-kit) | PowerShell quick start and audit commands | Read-only Python CLI checks release hygiene across local project folders. |
+| [NovaDeck Analyst](https://github.com/keepithandy/crypto-analyst) | Project safety model and decision labels | Read-only dashboard concept built around risk, invalidation, and LONG / SHORT / WATCH / FLAT labels. |
+
 ## Flagship and Active Projects
 
 ### [DungeonDex](https://github.com/keepithandy/DungeonDex)

@@ -1,14 +1,16 @@
 # Hi, I’m John / keepithandy
 
-I build small browser RPGs, reusable game systems, read-only dashboards, and developer tools for safer project workflows.
+I build browser games, reusable game systems, read-only dashboards, mobile-first QA tools, and developer utilities for safer project workflows.
 
-Most of my work follows the same pattern: build a small system, document it clearly, protect it with smoke checks, then reuse what works.
+Most of my work follows the same pattern: build a small system, document it clearly, protect it with focused smoke checks, then reuse what works.
 
-Right now I’m building in public and using GitHub as a working portfolio: not just finished products, but proof that I can design systems, ship controlled patches, document decisions, and keep projects moving.
+Right now I’m building in public and using GitHub as a working portfolio: not just finished products, but proof that I can design systems, ship controlled patches, document decisions, validate releases, and keep projects moving.
 
 ## Best Places To Start
 
-- [DungeonDex](https://github.com/keepithandy/DungeonDex) — flagship browser RPG and systems-design project.
+- [DungeonDex](https://github.com/keepithandy/DungeonDex) — flagship browser RPG and longest-running systems project.
+- [The Apothecary Ledger](https://github.com/keepithandy/alchemy-game) — self-contained browser alchemy game with process-sensitive brewing and shop progression.
+- [PatchLens](https://github.com/keepithandy/patch-lens) — mobile-first QA workspace for test sessions, defects, regressions, and developer-ready reports.
 - [Depth Engine](https://github.com/keepithandy/depth-engine) — reusable no-build browser RPG foundation.
 - [merge-guard](https://github.com/keepithandy/merge-guard) — pull request risk scanner for safer merges.
 - [dev-kit](https://github.com/keepithandy/dev-kit) — Python release-hygiene and repository-audit CLI.
@@ -20,11 +22,52 @@ These are compact, repository-backed proof points rather than mock marketing scr
 <details>
 <summary><strong>DungeonDex — versioned, smoke-backed browser RPG</strong></summary>
 
-- Current version authority: **v1.26.3.02 — Town Runtime Layer Cleanup**.
-- The repository maintains explicit version authority, changelog history, release notes, and focused smoke contracts.
+- Current version authority: **v1.26.4.04 — Boss Curve Release**.
+- The repository maintains explicit version authority, changelog history, release notes, build/cache labels, and focused smoke contracts.
 - Current maintenance direction emphasizes mobile readability, CSS/QoL, release hygiene, and preservation of the established gameplay loop.
 
 **Start here:** [VERSION.md](https://github.com/keepithandy/DungeonDex/blob/main/VERSION.md) · [README](https://github.com/keepithandy/DungeonDex#readme) · [commit history](https://github.com/keepithandy/DungeonDex/commits/main)
+
+</details>
+
+<details>
+<summary><strong>The Apothecary Ledger — complete browser alchemy prototype loop</strong></summary>
+
+```text
+Forage for ingredients
+→ inspect hidden traits
+→ configure the brewing process
+→ discover formulas
+→ fulfill orders or sell stock
+→ improve the workshop
+→ repeat
+```
+
+- Current baseline: **v0.1.0 prototype**.
+- Plain HTML, CSS, and JavaScript with no package manager, build step, account, API key, or server requirement.
+- The prototype includes 12 ingredients, 15 possible effects, two- and three-ingredient mixtures, process-sensitive brewing, hidden-effect discovery, customer orders, potion storage, workshop upgrades, local saves, mobile layouts, and built-in browser smoke checks.
+
+**Start here:** [README and gameplay loop](https://github.com/keepithandy/alchemy-game#readme) · [source](https://github.com/keepithandy/alchemy-game/tree/main) · [commit history](https://github.com/keepithandy/alchemy-game/commits/main)
+
+</details>
+
+<details>
+<summary><strong>PatchLens — local-first QA workflow for browser projects</strong></summary>
+
+```text
+Select project
+→ start versioned test session
+→ run release checklist
+→ capture evidence-backed defects
+→ track regression status
+→ export Markdown or Codex-ready report
+```
+
+- Current baseline: **v0.1.0 — Prototype Baseline**.
+- Mobile-first dashboard with project tracking, device/browser metadata, pass/fail/N/A checklists, structured defect capture, severity and regression states, Markdown reports, constrained repair prompts, JSON backup, and LocalStorage persistence.
+- Dependency-free PWA architecture with an offline shell, service worker, manifest, focused smoke harness, and no backend, account system, telemetry, or automatic GitHub writes.
+
+**Start here:** [README and workflow](https://github.com/keepithandy/patch-lens#readme) · [application shell](https://github.com/keepithandy/patch-lens/blob/main/index.html) · [smoke test](https://github.com/keepithandy/patch-lens/blob/main/smoke_model.mjs)
 
 </details>
 
@@ -66,7 +109,7 @@ Suggested checks:
 - Manually review save/load behavior
 ```
 
-The CLI now supports text, Markdown, JSON, CI thresholds, per-file scoring, custom rules, PR context, repository-aware suggested checks, PR comments, npm/npx packaging, and a reusable GitHub Action.
+The CLI supports text, Markdown, JSON, CI thresholds, per-file scoring, custom rules, PR context, repository-aware suggested checks, PR comments, npm/npx packaging, and a reusable GitHub Action.
 
 **Start here:** [README and demo](https://github.com/keepithandy/merge-guard#readme) · [sample diff](https://github.com/keepithandy/merge-guard/blob/main/examples/sample.diff) · [Action definition](https://github.com/keepithandy/merge-guard/blob/main/action.yml)
 
@@ -85,8 +128,8 @@ BTC / ETH / SOL / XRP
 
 - Mock-data-first and read-only.
 - No trade execution, wallet connection, private keys, exchange accounts, or prediction claims.
-- The repository currently proves the watchlist, asset-detail, deterministic risk-label, invalidation, and explanation foundations.
-- A portfolio screenshot is intentionally deferred until the v0.1 visual shell is stable enough to represent the project honestly.
+- The repository proves the watchlist, asset-detail, deterministic risk-label, invalidation, and explanation foundations.
+- A portfolio screenshot remains deferred until the v0.1 visual shell is stable enough to represent the project honestly.
 
 **Start here:** [README and safety boundary](https://github.com/keepithandy/crypto-analyst#readme) · [source](https://github.com/keepithandy/crypto-analyst/tree/main/src)
 
@@ -98,7 +141,19 @@ BTC / ETH / SOL / XRP
 
 A solo-developed browser dungeon crawler focused on compact mobile play, readable combat, gear progression, merchant upgrades, elite contracts, trophy records, dungeon memory, and safe smoke-backed patches.
 
-**Status:** Active flagship. Current work is intentionally biased toward QoL, CSS, mobile clarity, IP presentation, and release safety rather than new gameplay systems.
+**Status:** Active flagship. Current work is intentionally biased toward controlled gameplay tuning, QoL, CSS, mobile clarity, IP presentation, and release safety.
+
+### [The Apothecary Ledger](https://github.com/keepithandy/alchemy-game)
+
+A self-contained browser alchemy game built around hidden ingredient properties, process-sensitive potion brewing, customer orders, discovery, and workshop progression.
+
+**Status:** Playable v0.1.0 prototype with a complete local gameplay loop, automatic browser saves, mobile support, and built-in smoke validation.
+
+### [PatchLens](https://github.com/keepithandy/patch-lens)
+
+A mobile-first quality-assurance companion that converts informal browser and game testing into versioned test sessions, reproducible defect records, regression states, release reports, and constrained repair prompts.
+
+**Status:** Functional v0.1.0 local-first PWA baseline published on `main`.
 
 ### [Depth Engine](https://github.com/keepithandy/depth-engine)
 
@@ -135,20 +190,22 @@ A mock-first, read-only crypto analysis dashboard focused on watchlists, market 
 
 ## Recommended Pinned Repository Order
 
-The reviewed six-repository portfolio set is:
+The strongest current six-repository portfolio set is:
 
 1. [DungeonDex](https://github.com/keepithandy/DungeonDex) — flagship product and deepest systems history.
-2. [depth-engine](https://github.com/keepithandy/depth-engine) — reusable engine architecture and multi-example proof.
-3. [merge-guard](https://github.com/keepithandy/merge-guard) — developer tool with concrete CLI/CI output.
-4. [dev-kit](https://github.com/keepithandy/dev-kit) — non-JavaScript automation and release-audit work.
-5. [crypto-analyst](https://github.com/keepithandy/crypto-analyst) — React/Vite dashboard and explicit safety model.
-6. [guildmasters](https://github.com/keepithandy/guildmasters) — compact playable game loop.
+2. [alchemy-game](https://github.com/keepithandy/alchemy-game) — complete original gameplay loop and polished no-build browser delivery.
+3. [patch-lens](https://github.com/keepithandy/patch-lens) — practical mobile-first QA workflow built from a recurring real development need.
+4. [depth-engine](https://github.com/keepithandy/depth-engine) — reusable engine architecture and multi-example proof.
+5. [merge-guard](https://github.com/keepithandy/merge-guard) — developer tool with concrete CLI/CI output.
+6. [dev-kit](https://github.com/keepithandy/dev-kit) — Python automation and release-audit work.
 
-Applying this order is a manual GitHub profile-setting step; the repository README records the reviewed order without claiming the profile pins were changed automatically.
+Applying this order is a manual GitHub profile-setting step; this README records the reviewed order without claiming the profile pins were changed automatically.
 
 ## Current Roadmap
 
-- **DungeonDex:** preserve the established loop while continuing narrow mobile, CSS, QoL, lore-presentation, and release-hygiene work.
+- **DungeonDex:** preserve the established loop while continuing narrow gameplay tuning, mobile, CSS, QoL, lore-presentation, and release-hygiene work.
+- **The Apothecary Ledger:** validate balance, brewing clarity, mobile usability, and save reliability before expanding the ingredient or order catalog.
+- **PatchLens:** use the v0.1.0 baseline on real project tests, then add editable checklist templates, defect deduplication, regression linking, and screenshot annotation.
 - **Depth Engine:** complete the final unrestricted-browser gate for the v0.7 starter candidate before release labeling.
 - **merge-guard:** harden release/versioning and expand real-repository validation without weakening diff authority.
 - **dev-kit:** continue safe, read-only repository and release audits.
@@ -157,7 +214,7 @@ Applying this order is a manual GitHub profile-setting step; the repository READ
 
 ## What I’m Building Toward
 
-I’m interested in the overlap between game design, systems thinking, AI-assisted development, and developer productivity. The long-term goal is to build reusable foundations for browser RPGs while also creating practical tools that help with real development work.
+I’m interested in the overlap between game design, systems thinking, AI-assisted development, and developer productivity. The long-term goal is to build a connected portfolio of original browser games, reusable foundations, and practical tools that make testing and releasing software safer.
 
 The common thread across my repositories is simple: build the system, explain the system, test the system, then reuse what works.
 
@@ -167,9 +224,11 @@ The common thread across my repositories is simple: build the system, explain th
 - HTML and CSS for lightweight, no-build-step prototypes
 - React, Vite, Three.js, and React Three Fiber for app and 3D experiments
 - Python for automation, audits, and developer tooling
-- Markdown for project notes, documentation, and release summaries
+- LocalStorage, JSON portability, manifests, and service workers for local-first PWAs
+- Focused smoke tests for release confidence and regression protection
+- Markdown for project notes, documentation, QA reports, and release summaries
 - Git and GitHub for version control, issue tracking, review, and public project history
 
 ## How I Work
 
-I prefer small, controlled changes with clear intent. A good patch should be easy to describe, easy to review, and safe to build on. That usually means read-only helpers first, smoke coverage before risky behavior, and documentation that explains what changed without pretending the project is bigger than it is.
+I prefer small, controlled changes with clear intent. A good patch should be easy to describe, easy to review, and safe to build on. That usually means read-only helpers first, smoke coverage before risky behavior, explicit version authority, and documentation that explains what changed without pretending the project is bigger than it is.

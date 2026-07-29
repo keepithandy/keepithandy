@@ -1,0 +1,7 @@
+{
+  "suppressions": [],
+  "format": {
+    "url": "Exact public URL",
+    "reason": "Required explanation for a known temporary, intentionally deferred, or private target"
+  }
+}

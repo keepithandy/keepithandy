@@ -1,234 +1,152 @@
 # Hi, I’m John / keepithandy
 
-I build browser games, reusable game systems, read-only dashboards, mobile-first QA tools, and developer utilities for safer project workflows.
-
-Most of my work follows the same pattern: build a small system, document it clearly, protect it with focused smoke checks, then reuse what works.
-
-Right now I’m building in public and using GitHub as a working portfolio: not just finished products, but proof that I can design systems, ship controlled patches, document decisions, validate releases, and keep projects moving.
+I build browser games, reusable game systems, local-first QA tools, read-only dashboards, and developer utilities. My working pattern is consistent: build a narrow system, document it, protect it with focused checks, and reuse only what proves useful.
 
 ## Best Places To Start
 
 - [DungeonDex](https://github.com/keepithandy/DungeonDex) — flagship browser RPG and longest-running systems project.
-- [The Apothecary Ledger](https://github.com/keepithandy/alchemy-game) — self-contained browser alchemy game with process-sensitive brewing and shop progression.
-- [PatchLens](https://github.com/keepithandy/patch-lens) — mobile-first QA workspace for test sessions, defects, regressions, and developer-ready reports.
+- [The Apothecary Ledger](https://github.com/keepithandy/alchemy-game) — self-contained browser alchemy game with a complete local loop.
+- [PatchLens](https://github.com/keepithandy/patch-lens) — mobile-first QA workspace for test sessions, defects, regressions, and reports.
 - [Depth Engine](https://github.com/keepithandy/depth-engine) — reusable no-build browser RPG foundation.
-- [merge-guard](https://github.com/keepithandy/merge-guard) — pull request risk scanner for safer merges.
-- [dev-kit](https://github.com/keepithandy/dev-kit) — Python release-hygiene and repository-audit CLI.
+- [merge-guard](https://github.com/keepithandy/merge-guard) — pull-request risk scanner.
+- [dev-kit](https://github.com/keepithandy/dev-kit) — read-only Python repository and release audit CLI.
 
-## Current-State Proof
-
-These are compact, repository-backed proof points rather than mock marketing screenshots.
+## Repository-Backed Proof
 
 <details>
 <summary><strong>DungeonDex — versioned, smoke-backed browser RPG</strong></summary>
 
-- Current version authority: **v1.26.4.04 — Boss Curve Release**.
-- The repository maintains explicit version authority, changelog history, release notes, build/cache labels, and focused smoke contracts.
-- Current maintenance direction emphasizes mobile readability, CSS/QoL, release hygiene, and preservation of the established gameplay loop.
-
-**Start here:** [VERSION.md](https://github.com/keepithandy/DungeonDex/blob/main/VERSION.md) · [README](https://github.com/keepithandy/DungeonDex#readme) · [commit history](https://github.com/keepithandy/DungeonDex/commits/main)
+- Current authority and release details are maintained in [VERSION.md](https://github.com/keepithandy/DungeonDex/blob/main/VERSION.md), the [README](https://github.com/keepithandy/DungeonDex#readme), and the [main history](https://github.com/keepithandy/DungeonDex/commits/main).
+- Current maintenance favors controlled tuning, mobile readability, CSS/QoL, IP presentation, and release safety.
+- This profile does not claim production readiness; repository version and validation files remain authoritative.
 
 </details>
 
 <details>
-<summary><strong>The Apothecary Ledger — complete browser alchemy prototype loop</strong></summary>
-
-```text
-Forage for ingredients
-→ inspect hidden traits
-→ configure the brewing process
-→ discover formulas
-→ fulfill orders or sell stock
-→ improve the workshop
-→ repeat
-```
-
-- Current baseline: **v0.1.0 prototype**.
-- Plain HTML, CSS, and JavaScript with no package manager, build step, account, API key, or server requirement.
-- The prototype includes 12 ingredients, 15 possible effects, two- and three-ingredient mixtures, process-sensitive brewing, hidden-effect discovery, customer orders, potion storage, workshop upgrades, local saves, mobile layouts, and built-in browser smoke checks.
-
-**Start here:** [README and gameplay loop](https://github.com/keepithandy/alchemy-game#readme) · [source](https://github.com/keepithandy/alchemy-game/tree/main) · [commit history](https://github.com/keepithandy/alchemy-game/commits/main)
-
-</details>
-
-<details>
-<summary><strong>PatchLens — local-first QA workflow for browser projects</strong></summary>
-
-```text
-Select project
-→ start versioned test session
-→ run release checklist
-→ capture evidence-backed defects
-→ track regression status
-→ export Markdown or Codex-ready report
-```
-
-- Current baseline: **v0.1.0 — Prototype Baseline**.
-- Mobile-first dashboard with project tracking, device/browser metadata, pass/fail/N/A checklists, structured defect capture, severity and regression states, Markdown reports, constrained repair prompts, JSON backup, and LocalStorage persistence.
-- Dependency-free PWA architecture with an offline shell, service worker, manifest, focused smoke harness, and no backend, account system, telemetry, or automatic GitHub writes.
-
-**Start here:** [README and workflow](https://github.com/keepithandy/patch-lens#readme) · [application shell](https://github.com/keepithandy/patch-lens/blob/main/index.html) · [smoke test](https://github.com/keepithandy/patch-lens/blob/main/smoke_model.mjs)
-
-</details>
-
-<details>
-<summary><strong>Depth Engine — four examples on one reusable core</strong></summary>
+<summary><strong>Depth Engine — reusable core and bundled examples</strong></summary>
 
 ```text
 Open index.html directly
-→ Rat Cellar
-→ Arena Waves
-→ Sewer Patrol
-→ Depth Kit Lab
+→ choose a bundled example
+→ play through the shared engine shell
+→ validate save and content contracts
 ```
 
-- No install, package manager, build step, or local server is required for the browser runtime.
-- Nine documented smoke commands cover the shell, example selection, engine core, save behavior, and bundled content.
-- The current v0.7 starter candidate remains prototype-labeled until its final unrestricted-browser persistence/import/export gate is completed.
-
-**Start here:** [README and smoke commands](https://github.com/keepithandy/depth-engine#readme) · [examples](https://github.com/keepithandy/depth-engine/tree/main/examples) · [smoke workflow](https://github.com/keepithandy/depth-engine/blob/main/.github/workflows/smoke.yml)
+- No package manager or build step is required for the browser runtime.
+- The v0.7 starter candidate remains candidate-labeled until its unrestricted-browser persistence/import/export gate is completed.
+- Evidence: [README](https://github.com/keepithandy/depth-engine#readme), [examples](https://github.com/keepithandy/depth-engine/tree/main/examples), and [smoke workflow](https://github.com/keepithandy/depth-engine/blob/main/.github/workflows/smoke.yml).
 
 </details>
 
 <details>
-<summary><strong>merge-guard — real report output from a diff</strong></summary>
+<summary><strong>merge-guard — diff risk report</strong></summary>
 
 ```text
-merge-guard report
 Risk level: MEDIUM
 Merge readiness: NEEDS_REVIEW
-Risk score: 4
-
-Per-file risk:
-- MEDIUM src/saveState.js — state or persistence logic changed
-- MEDIUM package.json — dependency or config changed
-
-Suggested checks:
-- Run the normal test suite
-- Run smoke tests related to changed systems
-- Manually review save/load behavior
+Per-file risk: state/config changes detected
+Suggested checks: tests, focused smoke, manual save review
 ```
 
-The CLI supports text, Markdown, JSON, CI thresholds, per-file scoring, custom rules, PR context, repository-aware suggested checks, PR comments, npm/npx packaging, and a reusable GitHub Action.
-
-**Start here:** [README and demo](https://github.com/keepithandy/merge-guard#readme) · [sample diff](https://github.com/keepithandy/merge-guard/blob/main/examples/sample.diff) · [Action definition](https://github.com/keepithandy/merge-guard/blob/main/action.yml)
+The CLI supports text, Markdown, JSON, CI thresholds, per-file scoring, custom rules, PR context, repository-aware checks, npm/npx use, and a reusable Action. Evidence: [README](https://github.com/keepithandy/merge-guard#readme), [sample diff](https://github.com/keepithandy/merge-guard/blob/main/examples/sample.diff), and [Action](https://github.com/keepithandy/merge-guard/blob/main/action.yml).
 
 </details>
 
 <details>
-<summary><strong>NovaDeck Analyst — read-only risk dashboard foundation</strong></summary>
+<summary><strong>DungeonDex3D — v0.0.1-alpha graybox</strong></summary>
 
-```text
-BTC / ETH / SOL / XRP
-→ market structure
-→ invalidation level
-→ scenario weighting
-→ LONG / SHORT / WATCH / FLAT
-```
-
-- Mock-data-first and read-only.
-- No trade execution, wallet connection, private keys, exchange accounts, or prediction claims.
-- The repository proves the watchlist, asset-detail, deterministic risk-label, invalidation, and explanation foundations.
-- A portfolio screenshot remains deferred until the v0.1 visual shell is stable enough to represent the project honestly.
-
-**Start here:** [README and safety boundary](https://github.com/keepithandy/crypto-analyst#readme) · [source](https://github.com/keepithandy/crypto-analyst/tree/main/src)
+- Standalone React, Vite, TypeScript, Three.js, and React Three Fiber alpha.
+- Current proof covers first-person movement, arena boundaries, pointer-lock recovery, encounter HUD, queued notifications, responsive layouts, resource fallbacks, typecheck, build, and smoke CI.
+- The project remains an experimental alpha, not a production release.
+- Evidence: [README and commands](https://github.com/keepithandy/DungeonDex3D#readme), [Alpha Quality workflow](https://github.com/keepithandy/DungeonDex3D/blob/main/.github/workflows/alpha-quality.yml), and [alpha smoke](https://github.com/keepithandy/DungeonDex3D/blob/main/scripts/smoke-alpha-hardening.mjs).
 
 </details>
 
-## Flagship and Active Projects
+<details>
+<summary><strong>dev-kit — read-only audit proof</strong></summary>
 
-### [DungeonDex](https://github.com/keepithandy/DungeonDex)
+```text
+python -m dev_kit audit --path <project> --profile dungeondex
+PASS / WARN / FAIL summary
+Recommended action: correct version or baseline drift before release
+```
 
-A solo-developed browser dungeon crawler focused on compact mobile play, readable combat, gear progression, merchant upgrades, elite contracts, trophy records, dungeon memory, and safe smoke-backed patches.
+The example format is documented in the stable [sample report](https://github.com/keepithandy/dev-kit/blob/main/docs/SAMPLE_REPORT.md). The tool reads target repositories and writes only an explicitly requested report path. Evidence: [README](https://github.com/keepithandy/dev-kit#readme), [tests](https://github.com/keepithandy/dev-kit/tree/main/tests), and [report documentation](https://github.com/keepithandy/dev-kit#report-output).
 
-**Status:** Active flagship. Current work is intentionally biased toward controlled gameplay tuning, QoL, CSS, mobile clarity, IP presentation, and release safety.
+</details>
 
-### [The Apothecary Ledger](https://github.com/keepithandy/alchemy-game)
+<details>
+<summary><strong>Guildmasters — playable idle loop</strong></summary>
 
-A self-contained browser alchemy game built around hidden ingredient properties, process-sensitive potion brewing, customer orders, discovery, and workshop progression.
+```text
+Recruit hero
+→ assign contract with visible success chance
+→ resolve success or failure
+→ collect rewards and experience
+→ upgrade guild
+→ review Guild Log
+```
 
-**Status:** Playable v0.1.0 prototype with a complete local gameplay loop, automatic browser saves, mobile support, and built-in smoke validation.
+The browser game includes recruitable heroes, contracts, rewards, upgrades, unlock copy, a Guild Log, and browser save/load. Current target: v0.2 progression spine and Guild Log polish; feature creep remains intentionally limited. Evidence: [README](https://github.com/keepithandy/guildmasters#readme), [source entry](https://github.com/keepithandy/guildmasters/blob/main/index.html), and the documented `npm run smoke` command.
 
-### [PatchLens](https://github.com/keepithandy/patch-lens)
+</details>
 
-A mobile-first quality-assurance companion that converts informal browser and game testing into versioned test sessions, reproducible defect records, regression states, release reports, and constrained repair prompts.
+<details>
+<summary><strong>Northline Studio Licensing — scope and authority</strong></summary>
 
-**Status:** Functional v0.1.0 local-first PWA baseline published on `main`.
+- Source code follows the controlling project or file license.
+- Creative content follows project/asset terms and is otherwise reserved.
+- Third-party material follows its original terms.
+- Project-specific, file-specific, and third-party terms control conflicts; the hub is documentation, not legal certification or government registration.
+- Evidence: [policy hub](https://github.com/keepithandy/Northline-Studio-Licensing#readme), [project catalog](https://github.com/keepithandy/Northline-Studio-Licensing/blob/main/PROJECTS.md), and [creative-content terms](https://github.com/keepithandy/Northline-Studio-Licensing/blob/main/ASSETS_LICENSE.md).
 
-### [Depth Engine](https://github.com/keepithandy/depth-engine)
+</details>
 
-A lightweight browser RPG engine foundation built with plain HTML, CSS, and JavaScript. It separates reusable engine logic from example content so new themes can be copied, studied, and reshaped without starting from zero.
+NovaDeck Analyst remains mock-first and read-only; screenshot proof is deferred until the visual shell is representative. No wallet, exchange-account, private-key, or trade-execution claim is made. See its [README](https://github.com/keepithandy/crypto-analyst#readme).
 
-**Status:** Active reusable-engine prototype with a v0.7 starter candidate pending its final manual browser gate.
+## Project Visibility
 
-### [merge-guard](https://github.com/keepithandy/merge-guard)
+- **Flagship:** DungeonDex.
+- **Active playable:** The Apothecary Ledger and PatchLens baseline.
+- **Supporting foundations/tools:** Depth Engine, merge-guard, dev-kit, crafting-kit, and repair-tool-kit.
+- **Experimental:** DungeonDex3D, NovaDeck Analyst, Guildmasters, Catalyst, and other explicitly early prototypes.
+- **Private sandbox:** GitHub Practice App; private details are not used as public proof.
+- **Archived:** shown only when historical context is useful and clearly labeled.
 
-A lightweight pull request and diff risk scanner that explains risky files, likely breakage areas, and relevant checks before a branch is merged.
+Full promotion, removal, mobile, and freshness rules are in [Profile Maintenance](docs/PROFILE_MAINTENANCE.md). The portfolio operating model is in [Ecosystem Strategy](docs/ECOSYSTEM_STRATEGY.md).
 
-**Status:** Active developer-tool prototype with CLI, CI, Action, custom-rule, PR-context, and project-check foundations implemented.
+## Recommended Pinned Order
 
-### [dev-kit](https://github.com/keepithandy/dev-kit)
+1. [DungeonDex](https://github.com/keepithandy/DungeonDex)
+2. [alchemy-game](https://github.com/keepithandy/alchemy-game)
+3. [patch-lens](https://github.com/keepithandy/patch-lens)
+4. [depth-engine](https://github.com/keepithandy/depth-engine)
+5. [merge-guard](https://github.com/keepithandy/merge-guard)
+6. [dev-kit](https://github.com/keepithandy/dev-kit)
 
-A Python command-line toolkit for read-only project audits and release hygiene. It checks local repository folders for version-label drift, baseline files, smoke-script coverage, and Markdown report output.
+This is the reviewed order. Applying profile pins remains a manual GitHub UI action; this README does not claim the UI setting was changed automatically.
 
-**Status:** Active tooling repository.
+## Maintenance and Validation
 
-### [NovaDeck Analyst](https://github.com/keepithandy/crypto-analyst)
+```powershell
+python tools/check_profile.py
+```
 
-A mock-first, read-only crypto analysis dashboard focused on watchlists, market summaries, invalidation levels, scenario review, and LONG / SHORT / WATCH / FLAT trade-readiness labels.
+The profile workflow checks public README links and reports advisory wording that may overstate stability, completeness, security, scale, or validation. Temporary/deferred exceptions require an exact URL and reason in `profile-link-suppressions.json`; private targets are not exposed.
 
-**Status:** Early v0.1 dashboard foundation; not trade-execution software.
+Quarterly reviews use [Profile Maintenance](docs/PROFILE_MAINTENANCE.md) to verify current status, version authority, validation evidence, limitations, and next safe work.
 
-## Supporting Projects and Experiments
+## Current Direction
 
-- [guildmasters](https://github.com/keepithandy/guildmasters) — small idle guild-management game with recruiting, contracts, upgrades, a Guild Log, and browser save/load.
-- [crafting-kit](https://github.com/keepithandy/crafting-kit) — reusable crafting-system validation and read-only crafting dry-run helpers.
-- [repair-tool-kit](https://github.com/keepithandy/repair-tool-kit) — safety-first Windows repair workflows, maintenance checklists, and repair-session notes.
-- [DungeonDex3D](https://github.com/keepithandy/DungeonDex3D) — `v0.0.1-alpha` playable graybox with a standalone React/Three.js build, first-person movement, encounter HUD, and focused runtime checks.
-- [Northline Studio Licensing](https://github.com/keepithandy/Northline-Studio-Licensing) — licensing and studio-policy repository.
-- [GitHub Practice App](https://github.com/keepithandy/Github-Practice-App) — small repository used for GitHub workflow practice.
+- Preserve DungeonDex while continuing narrow player-facing polish and release hygiene.
+- Complete Depth Engine's unrestricted-browser release gate before changing its candidate label.
+- Use PatchLens on real test sessions and strengthen its reporting workflow.
+- Harden merge-guard and dev-kit through real-repository fixtures and stable output contracts.
+- Keep NovaDeck Analyst read-only and mock-first until its v0.1 shell is stable.
+- Keep DungeonDex3D alpha work focused on controls, readability, runtime reliability, and playtesting rather than system expansion.
 
-## Recommended Pinned Repository Order
+## Tech and Working Style
 
-The strongest current six-repository portfolio set is:
+JavaScript, TypeScript, HTML, CSS, React, Vite, Three.js, React Three Fiber, Python, LocalStorage, JSON, PWAs, focused smoke tests, Markdown documentation, Git, and GitHub.
 
-1. [DungeonDex](https://github.com/keepithandy/DungeonDex) — flagship product and deepest systems history.
-2. [alchemy-game](https://github.com/keepithandy/alchemy-game) — complete original gameplay loop and polished no-build browser delivery.
-3. [patch-lens](https://github.com/keepithandy/patch-lens) — practical mobile-first QA workflow built from a recurring real development need.
-4. [depth-engine](https://github.com/keepithandy/depth-engine) — reusable engine architecture and multi-example proof.
-5. [merge-guard](https://github.com/keepithandy/merge-guard) — developer tool with concrete CLI/CI output.
-6. [dev-kit](https://github.com/keepithandy/dev-kit) — Python automation and release-audit work.
-
-Applying this order is a manual GitHub profile-setting step; this README records the reviewed order without claiming the profile pins were changed automatically.
-
-## Current Roadmap
-
-- **DungeonDex:** preserve the established loop while continuing narrow gameplay tuning, mobile, CSS, QoL, lore-presentation, and release-hygiene work.
-- **The Apothecary Ledger:** validate balance, brewing clarity, mobile usability, and save reliability before expanding the ingredient or order catalog.
-- **PatchLens:** use the v0.1.0 baseline on real project tests, then add editable checklist templates, defect deduplication, regression linking, and screenshot annotation.
-- **Depth Engine:** complete the final unrestricted-browser gate for the v0.7 starter candidate before release labeling.
-- **merge-guard:** harden release/versioning and expand real-repository validation without weakening diff authority.
-- **dev-kit:** continue safe, read-only repository and release audits.
-- **NovaDeck Analyst:** finish a stable mock-first v0.1 visual shell before adding screenshot proof or live data.
-- **DungeonDex3D:** keep alpha work narrow around readability, controls, runtime reliability, and smoke coverage.
-
-## What I’m Building Toward
-
-I’m interested in the overlap between game design, systems thinking, AI-assisted development, and developer productivity. The long-term goal is to build a connected portfolio of original browser games, reusable foundations, and practical tools that make testing and releasing software safer.
-
-The common thread across my repositories is simple: build the system, explain the system, test the system, then reuse what works.
-
-## Tech and Tools
-
-- JavaScript and TypeScript for interactive browser projects
-- HTML and CSS for lightweight, no-build-step prototypes
-- React, Vite, Three.js, and React Three Fiber for app and 3D experiments
-- Python for automation, audits, and developer tooling
-- LocalStorage, JSON portability, manifests, and service workers for local-first PWAs
-- Focused smoke tests for release confidence and regression protection
-- Markdown for project notes, documentation, QA reports, and release summaries
-- Git and GitHub for version control, issue tracking, review, and public project history
-
-## How I Work
-
-I prefer small, controlled changes with clear intent. A good patch should be easy to describe, easy to review, and safe to build on. That usually means read-only helpers first, smoke coverage before risky behavior, explicit version authority, and documentation that explains what changed without pretending the project is bigger than it is.
+I prefer small controlled changes with explicit intent, evidence, limitations, and a safe next step.

@@ -27,7 +27,6 @@ If you’re new here, start with [DungeonDex](https://github.com/keepithandy/Dun
 - **[Depth Engine](https://github.com/keepithandy/depth-engine)** — a reusable no-build browser RPG foundation with bundled examples, isolated save identities, accessibility work, and focused smoke checks.
 - **[merge-guard](https://github.com/keepithandy/merge-guard)** — a rules-based pull-request risk scanner with text, Markdown, JSON, CI thresholds, custom rules, and GitHub Action support.
 - **[dev-kit](https://github.com/keepithandy/dev-kit)** — a read-only Python CLI for repository audits, version checks, release reports, and portfolio hygiene.
-- **[NovaDeck Analyst](https://github.com/keepithandy/crypto-analyst)** — a mock-first, read-only crypto analysis dashboard for scenario-based risk labels and invalidation levels, without trade execution.
 
 Smaller reusable experiments include [crafting-kit](https://github.com/keepithandy/crafting-kit) and [repair-tool-kit](https://github.com/keepithandy/repair-tool-kit).
 

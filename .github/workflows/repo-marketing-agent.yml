@@ -1,0 +1,44 @@
+name: Repo Marketing Agent
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 13 * * 1"
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: repo-marketing-agent
+  cancel-in-progress: false
+
+jobs:
+  generate-campaign-pack:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+
+      - name: Run agent tests
+        run: python -m unittest discover -s marketing_agent -p "test_*.py"
+
+      - name: Generate and publish rolling campaign issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: >-
+          python marketing_agent/agent.py
+          --config marketing_agent/config.json
+          --output marketing-pack.md
+          --publish-issue
+
+      - name: Add campaign pack to workflow summary
+        if: always() && hashFiles('marketing-pack.md') != ''
+        run: cat marketing-pack.md >> "$GITHUB_STEP_SUMMARY"

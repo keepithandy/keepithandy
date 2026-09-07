@@ -1,47 +1,42 @@
 # Hi, I’m John — keepithandy
 
-I build browser games, interactive systems, and local-first developer tools. I care about readable interfaces, dependable saves, compact gameplay loops, and small changes backed by focused validation.
+I build systems-driven browser games, interactive 3D experiences, and local-first developer tools. I like game loops that stay readable, saves that survive real use, and projects whose scope is clear enough to test and finish.
 
-**JavaScript · TypeScript · HTML/CSS · React · Three.js · Python · LocalStorage · GitHub Actions**
+**JavaScript · TypeScript · HTML/CSS · React · Three.js · Python · browser persistence · GitHub Actions**
 
-If you’re new here, start with [DungeonDex](https://github.com/keepithandy/DungeonDex) for my deepest game project or [Galaxy Command](https://github.com/keepithandy/galaxy-command) for my newest strategy work.
+My recent work is moving toward living game worlds: strategic maps, durable progression, simulation, and interfaces that make complex systems feel approachable.
 
-## Now Building
+## Current and Recent Work
 
-*Profile refreshed August 18, 2026.*
+- **[DungeonDex](https://github.com/keepithandy/DungeonDex)** — my flagship mobile-friendly dungeon crawler. Prepare in town, descend into the Hollow Stair, fight readable encounters, collect and improve gear, take Elite Contracts, and build a lasting Guild Journal through trophies, records, and named loadouts.
+- **[Galaxy Command](https://github.com/keepithandy/galaxy-command)** — a browser-based 3D grand-strategy foundation where the galaxy itself is the command surface. The current build combines galaxy, system, and planet navigation with deterministic turns, faction territory, diplomacy, persistence, and a dedicated System View.
+- **[Outpost Zero](https://github.com/keepithandy/Outpost-Zero)** — an early survival simulation about holding a remote outpost together under resource pressure, crew relationships, time, and unexpected incidents. It is the first game planned on the reusable [Pulse Engine](https://github.com/keepithandy/Pulse-Engine) simulation foundation.
+- **[Last Stop Motel](https://github.com/keepithandy/last-stop-motel)** — a complete offline Three.js management game. Run a desert motel for seven nights, manage rooms, guests, staff, repairs, debt, and story decisions, then earn the right to keep the light on.
+- **[GuildMasters](https://github.com/keepithandy/GuildMasters)** — a release-candidate fantasy guild-management game with recruiting, contracts, a growing guildhall, tactical encounters, faction pressure, campaign choices, durable records, and save recovery.
 
-- **[DungeonDex](https://github.com/keepithandy/DungeonDex)** — my flagship mobile-friendly browser dungeon crawler. Its core loop moves from town preparation to dungeon combat, loot, upgrades, elite contracts, and long-term Guild Journal records.
-- **[Galaxy Command](https://github.com/keepithandy/galaxy-command)** — a browser-based 3D galaxy strategy game built around direct interaction with the strategic map. The current foundation supports galaxy, system, and planet focus alongside territory, fleet, faction, and persistence data.
-- **[GuildMasters](https://github.com/keepithandy/GuildMasters)** — a release-candidate fantasy guild-management game. Its 22-phase progression foundation connects heroes, contracts, upgrades, world systems, save repair, navigation, and quality-of-life tools in one playable dashboard.
-- **[CyberOps: Command](https://github.com/keepithandy/CyberOps-Command)** — a playable early-alpha management game about recruiting operatives, building task forces, equipping recovered technology, and running covert cyber operations.
+## Other Playable Experiments
 
-## More Playable Work
-
-- **[The Apothecary Ledger](https://github.com/keepithandy/alchemy-game)** — a self-contained browser alchemy game about gathering ingredients, discovering formulas, brewing potions, fulfilling orders, and improving an apothecary.
-- **[USB Lab Synth](https://github.com/keepithandy/synth-lab)** — a portable offline browser synthesizer designed to run from a USB drive through PowerShell, with two oscillators, filtering, envelopes, LFO routing, presets, and keyboard controls.
-- **[DungeonDex3D](https://github.com/keepithandy/DungeonDex3D)** — an experimental Three.js and React Three Fiber graybox focused on first-person controls, encounter clarity, responsive presentation, and a deliberately small playable foundation.
+- **[CyberOps: Command](https://github.com/keepithandy/CyberOps-Command)** — an early management-game prototype about recruiting operatives, building task forces, recovering technology, and running covert operations.
+- **[The Apothecary Ledger](https://github.com/keepithandy/alchemy-game)** — a self-contained browser alchemy game about ingredients, discovery, brewing, orders, and improving an apothecary.
+- **[DungeonDex3D](https://github.com/keepithandy/DungeonDex3D)** — an experimental React Three Fiber graybox for first-person controls, encounter clarity, and responsive presentation.
+- **[USB Lab Synth](https://github.com/keepithandy/synth-lab)** — a portable, offline browser synthesizer designed to run from a USB drive.
 
 ## Tools and Foundations
 
-- **[PatchLens](https://github.com/keepithandy/patch-lens)** — a mobile-friendly, local-first QA workspace for test sessions, defects, regressions, checklists, and reports.
-- **[Depth Engine](https://github.com/keepithandy/depth-engine)** — a reusable no-build browser RPG foundation with bundled examples, isolated save identities, accessibility work, and focused smoke checks.
-- **[merge-guard](https://github.com/keepithandy/merge-guard)** — a rules-based pull-request risk scanner with text, Markdown, JSON, CI thresholds, custom rules, and GitHub Action support.
-- **[dev-kit](https://github.com/keepithandy/dev-kit)** — a read-only Python CLI for repository audits, version checks, release reports, and portfolio hygiene.
-
-Smaller reusable experiments include [crafting-kit](https://github.com/keepithandy/crafting-kit) and [repair-tool-kit](https://github.com/keepithandy/repair-tool-kit).
+- **[Depth Engine](https://github.com/keepithandy/depth-engine)** — a lightweight browser-RPG foundation with isolated saves, accessible examples, and focused smoke checks.
+- **[PatchLens](https://github.com/keepithandy/patch-lens)** — a mobile-friendly local QA workspace for sessions, defects, regressions, checklists, and reports.
+- **[merge-guard](https://github.com/keepithandy/merge-guard)** — a rules-based pull-request risk scanner with Markdown, JSON, CI thresholds, custom rules, and GitHub Action support.
 
 ## How I Work
 
-1. Build a narrow, usable loop.
-2. Keep state, saves, and boundaries explicit.
-3. Test the risky paths with focused smoke checks.
-4. Document what works, what is experimental, and what comes next.
-5. Expand only when the foundation proves useful.
+1. Start with a narrow playable loop or a concrete system boundary.
+2. Keep saves, state transitions, and recovery paths explicit.
+3. Make the interface useful on both desktop and touch devices.
+4. Validate risky paths with focused smoke checks and regression coverage.
+5. Expand only after the foundation has earned it.
 
-Most projects are designed to run locally, stay understandable without a large service stack, and remain approachable on both desktop and mobile.
+Most of my projects are built to run locally, remain understandable without a large service stack, and be honest about their current stage—from prototype through release candidate or complete release.
 
-## Status, Feedback, and Licensing
+*Profile refreshed September 7, 2026.*
 
-Each repository README is the source of truth for its current version, setup commands, validation, limitations, and roadmap. Early projects are labeled as prototypes, alphas, or release candidates instead of being presented as finished products.
-
-For questions or feedback, open an issue in the relevant repository. Source and creative-content terms are documented through [Northline Studio Licensing](https://github.com/keepithandy/Northline-Studio-Licensing).
+For setup, current status, validation, and licensing, each repository README is the source of truth. Feedback is welcome through issues in the relevant repository.

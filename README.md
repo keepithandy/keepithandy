@@ -1,64 +1,76 @@
 # John / keepithandy
 
-**Solo developer building browser games, simulations, and practical developer tools.**
+<p align="center">
+  <strong>Browser games · simulations · command interfaces · developer tools</strong><br>
+  Shipping playable systems, commercial releases, and focused experiments in JavaScript, Three.js, and Python.
+</p>
 
-I build projects that are meant to be played, used, tested, and shipped — from commercial browser games to local-first development utilities. My work focuses on readable systems, durable progression, responsive interfaces, and small foundations that can grow without becoming impossible to maintain.
+---
 
-**JavaScript · TypeScript · HTML/CSS · React · Three.js · Python · browser persistence · GitHub Actions**
+## Now
 
-## Featured Work
+My recent work is centered on **browser-based games and operational interfaces**: military-style command screens, management systems, simulation-heavy game loops, and practical tools that support the way I build and ship software.
 
-### [DungeonDex — Commercial Release](https://northline-studio.itch.io/dungeondex)
+### DungeonDex — Commercial Release
 
-My flagship browser dungeon crawler and an active commercial release on itch.io. Descend through the Hollow Stair, fight increasingly dangerous encounters, collect and improve gear, take contracts, build a lasting Guild Journal, and decide how deep to push before returning to town.
+[**Play / Buy DungeonDex on itch.io →**](https://northline-studio.itch.io/dungeondex)
 
-**HTML5 · JavaScript · CSS · mobile-first · roguelite progression**  
-**[Play / Buy DungeonDex on itch.io →](https://northline-studio.itch.io/dungeondex)**
+My flagship commercial browser roguelite. DungeonDex is built around dungeon runs, gear progression, contracts, persistent records, and a mobile-friendly interface.
 
-> DungeonDex is a commercial project. Its primary source repository is private; the public release, downloads, updates, and devlogs live on itch.io.
+`HTML5` `JavaScript` `CSS` `roguelite` `mobile-first`
 
-### [Last Stop Motel](https://github.com/keepithandy/last-stop-motel)
+> DungeonDex is a paid commercial release. Its main source repository is private; releases, downloads, updates, and devlogs are published through itch.io.
 
-A complete offline Three.js management game about keeping a desert motel alive for seven nights. Manage rooms, guests, staff, repairs, debt, and story decisions while trying to keep the light on.
+---
+
+## Recent Projects
+
+### [Blacksite Command](https://github.com/keepithandy/blacksite-command)
+
+A newer command-and-control project pushing the military operations interface direction further — dense information, tactical presentation, and a purpose-built command-room feel.
+
+### [Blacksite Radar](https://github.com/keepithandy/Blacksite-Radar)
+
+A focused browser radar and operations-display experiment built around readable tactical information, military-style presentation, and atmosphere.
+
+### [CyberOps: Command](https://github.com/keepithandy/CyberOps-Command)
+
+A covert-operations management game about recruiting operatives, organizing task forces, recovering technology, and running missions through a command interface.
 
 ### [GuildMasters](https://github.com/keepithandy/GuildMasters)
 
-A fantasy guild-management game built around recruitment, contracts, guild growth, tactical encounters, faction pressure, campaign choices, durable records, and save recovery.
+A fantasy guild-management game with recruiting, contracts, guild growth, tactical encounters, campaign choices, durable records, and save recovery. Recent work has focused on finishing the remaining systems and improving the UI/CSS presentation.
 
 ### [merge-guard](https://github.com/keepithandy/merge-guard)
 
-A rules-based pull-request risk scanner with Markdown and JSON output, CI thresholds, custom rules, and GitHub Actions support. Built as a practical developer tool rather than a demo-only project.
+A pull-request risk scanner built for practical development workflows. Recent work is moving it toward a cleaner productized **Free / Pro / Team** structure for distribution and sale.
 
-## Currently Building
+---
 
-- **[Galaxy Command](https://github.com/keepithandy/galaxy-command)** — a browser-based 3D grand-strategy foundation where the galaxy itself is the command surface, with system navigation, faction territory, diplomacy, deterministic turns, and persistence.
-- **[Blacksite Radar](https://github.com/keepithandy/Blacksite-Radar)** — a military-style browser interface experiment focused on radar presentation, command-room atmosphere, and readable operational information.
-- **[CyberOps: Command](https://github.com/keepithandy/CyberOps-Command)** — a management-game prototype about recruiting operatives, building task forces, recovering technology, and running covert operations.
-- **[Outpost Zero](https://github.com/keepithandy/Outpost-Zero)** — an early survival simulation about holding a remote outpost together under resource pressure, crew relationships, time, and unexpected incidents.
+## Also Active
 
-## More Games & Experiments
+| Project | Focus |
+| --- | --- |
+| [Last Stop Motel](https://github.com/keepithandy/last-stop-motel) | Offline Three.js management game |
+| [Galaxy Command](https://github.com/keepithandy/galaxy-command) | 3D browser grand-strategy foundation |
+| [Outpost Zero](https://github.com/keepithandy/Outpost-Zero) | Survival simulation and resource pressure |
+| [Depth Engine](https://github.com/keepithandy/depth-engine) | Lightweight browser-RPG foundation |
 
-- **[The Apothecary Ledger](https://github.com/keepithandy/alchemy-game)** — a self-contained browser alchemy game about ingredients, discovery, brewing, orders, and improving an apothecary.
-- **[DungeonDex3D](https://github.com/keepithandy/DungeonDex3D)** — an experimental React Three Fiber graybox for first-person controls, encounter clarity, and responsive presentation.
-- **[USB Lab Synth](https://github.com/keepithandy/synth-lab)** — a portable, offline browser synthesizer designed to run from a USB drive.
+---
 
-## Developer Tools & Foundations
+## What I Build With
 
-- **[Depth Engine](https://github.com/keepithandy/depth-engine)** — a lightweight browser-RPG foundation with isolated saves, accessible examples, and focused smoke checks.
-- **[PatchLens](https://github.com/keepithandy/patch-lens)** — a mobile-friendly local QA workspace for sessions, defects, regressions, checklists, and reports.
-- **[Pulse Engine](https://github.com/keepithandy/Pulse-Engine)** — a reusable simulation foundation for system-driven browser projects.
+<p align="center">
+  <strong>JavaScript · TypeScript · HTML/CSS · React · Three.js · Python · GitHub Actions</strong>
+</p>
 
-## How I Build
+I prefer projects with a clear playable or usable loop, explicit state, durable saves, responsive interfaces, and enough structure to keep expanding without losing control of the codebase.
 
-1. Start with a narrow playable loop or a concrete system boundary.
-2. Keep saves, state transitions, and recovery paths explicit.
-3. Make interfaces useful on both desktop and touch devices.
-4. Validate risky paths with focused smoke checks and regression coverage.
-5. Ship working milestones, then expand the foundation deliberately.
+---
 
-Most of my projects are designed to run locally, remain understandable without a large service stack, and clearly communicate whether they are experiments, active builds, release candidates, or finished releases.
+## Find My Work
 
-**Commercial releases:** [Northline Studios on itch.io](https://northline-studio.itch.io/)  
-**Source and development:** browse the public repositories here on GitHub.
+**Commercial games:** [Northline Studios on itch.io](https://northline-studio.itch.io/)  
+**Development:** browse the repositories on this GitHub profile.
 
-*Profile refreshed September 20, 2026.*
+<sub>Profile focused on current work · updated September 20, 2026</sub>

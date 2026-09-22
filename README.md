@@ -19,6 +19,16 @@ My flagship commercial browser roguelite. DungeonDex is built around dungeon run
 
 `HTML5` `JavaScript` `CSS` `roguelite` `mobile-first`
 
+<div align="center">
+
+#### 3D Production Focus
+
+<img src="https://img.shields.io/badge/Blender-3D%20Asset%20Production-F5792A?logo=blender&logoColor=white" alt="Blender 3D Asset Production"> <img src="https://img.shields.io/badge/DungeonDex-Gear%20%7C%20Weapons%20%7C%20Items-2ea44f" alt="DungeonDex Gear Weapons Items"> <img src="https://img.shields.io/badge/Status-Active%20Production-1f6feb" alt="Active Production">
+
+**Current full-time production focus:** creating DungeonDex's gear, weapon, and item models in **Blender**, building out a cohesive 3D asset library for the game's equipment and item presentation.
+
+</div>
+
 > DungeonDex is a paid commercial release. Its main source repository is private; releases, downloads, updates, and devlogs are published through itch.io.
 
 ---
@@ -73,4 +83,4 @@ I prefer projects with a clear playable or usable loop, explicit state, durable 
 **Commercial games:** [Northline Studios on itch.io](https://northline-studio.itch.io/)  
 **Development:** browse the repositories on this GitHub profile.
 
-<sub>Profile focused on current work · updated September 20, 2026</sub>
+<sub>Profile focused on current work · updated September 21, 2026</sub>

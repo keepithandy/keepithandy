@@ -1,0 +1,86 @@
+{
+  "owner": "keepithandy",
+  "profile_repository": "keepithandy/keepithandy",
+  "timezone": "America/New_York",
+  "issue_title": "Repo Marketing Agent — Weekly Campaign Pack",
+  "portfolio_message": "I build browser games, reusable game systems, read-only dashboards, and developer tools with controlled patches, clear documentation, and smoke-backed workflows.",
+  "campaign_goal": "Turn repository activity into honest, proof-based portfolio marketing without exaggerating project maturity.",
+  "excluded_repositories": [
+    "Github-Practice-App",
+    "Northline-Studio-Licensing"
+  ],
+  "priority_repositories": {
+    "DungeonDex": 100,
+    "depth-engine": 88,
+    "merge-guard": 84,
+    "dev-kit": 78,
+    "crypto-analyst": 74,
+    "alchemy-game": 70,
+    "guildmasters": 64,
+    "crafting-kit": 58,
+    "DungeonDex3D": 54,
+    "repair-tool-kit": 46
+  },
+  "repo_overrides": {
+    "DungeonDex": {
+      "display_name": "DungeonDex",
+      "category": "Flagship browser RPG",
+      "positioning": "A mobile-focused browser dungeon crawler developed through narrow, versioned, smoke-backed patches.",
+      "audience": "players, browser-game developers, and systems-design recruiters"
+    },
+    "depth-engine": {
+      "display_name": "Depth Engine",
+      "category": "Reusable browser RPG engine",
+      "positioning": "A no-build HTML, CSS, and JavaScript RPG foundation designed to be copied, studied, and reshaped.",
+      "audience": "indie developers and people learning browser-game architecture"
+    },
+    "merge-guard": {
+      "display_name": "merge-guard",
+      "category": "Developer safety tool",
+      "positioning": "A diff and pull-request risk scanner that explains likely breakage areas and the checks worth running before merge.",
+      "audience": "solo developers and small teams using GitHub"
+    },
+    "dev-kit": {
+      "display_name": "dev-kit",
+      "category": "Release-hygiene CLI",
+      "positioning": "A Python toolkit for read-only repository audits, version-label checks, and release-hygiene reports.",
+      "audience": "maintainers who want safer, repeatable releases"
+    },
+    "crypto-analyst": {
+      "display_name": "NovaDeck Analyst",
+      "category": "Read-only risk dashboard",
+      "positioning": "A mock-first crypto analysis dashboard centered on invalidation, scenario review, and capital-preservation labels—not trade execution.",
+      "audience": "frontend developers and risk-focused market analysts"
+    },
+    "alchemy-game": {
+      "display_name": "Rebo",
+      "category": "Browser alchemy game",
+      "positioning": "An ingredient-discovery browser game built around experimentation, recipes, and potion outcomes.",
+      "audience": "players who enjoy crafting and discovery systems"
+    },
+    "guildmasters": {
+      "display_name": "Guildmasters",
+      "category": "Idle management game",
+      "positioning": "A compact browser guild-management loop with recruiting, contracts, upgrades, and persistent progress.",
+      "audience": "idle-game players and browser-game developers"
+    },
+    "crafting-kit": {
+      "display_name": "crafting-kit",
+      "category": "Reusable game-system kit",
+      "positioning": "Validation and dry-run helpers for safer crafting-system design.",
+      "audience": "game developers building item and recipe systems"
+    },
+    "DungeonDex3D": {
+      "display_name": "DungeonDex3D",
+      "category": "3D browser prototype",
+      "positioning": "A focused React and Three.js graybox exploring first-person dungeon interaction and encounter UI.",
+      "audience": "web-3D developers and technical game-design recruiters"
+    },
+    "repair-tool-kit": {
+      "display_name": "repair-tool-kit",
+      "category": "Windows maintenance toolkit",
+      "positioning": "Safety-first repair workflows and maintenance checklists for controlled troubleshooting sessions.",
+      "audience": "Windows users and support-minded developers"
+    }
+  }
+}

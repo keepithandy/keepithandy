@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 John / keepithandy
+# John / keepithandy
 
 ### Building small models, playable systems, and practical developer tools.
 
@@ -20,7 +20,7 @@
 
 ---
 
-## 🚀 Best Places to Start
+## Best Places to Start
 
 | Project | What it is |
 |---|---|
@@ -31,7 +31,7 @@
 
 ---
 
-## 🔬 Current Focus
+## Current Focus
 
 > **Plex is the main research focus right now.**
 
@@ -41,7 +41,7 @@ Alongside Plex, I continue building and expanding browser games, simulation syst
 
 ---
 
-# 🧠 Plex
+# Plex
 
 <div align="center">
 
@@ -70,7 +70,7 @@ Plex is a compact coding-model project built from **randomly initialized weights
 
 The goal is not a general chatbot. It is a focused implementation engine for understanding narrowly scoped repository tasks and producing the smallest correct change.
 
-### 📊 Current research model
+### Current research model
 
 | | Current state |
 |---|---|
@@ -83,7 +83,7 @@ The goal is not a general chatbot. It is a focused implementation engine for und
 | **CPU generation** | Working |
 | **Phase** | Phase 2 — active research |
 
-### 🌐 Current training direction
+### Current training direction
 
 **Plex Web** moves the project toward:
 
@@ -97,7 +97,7 @@ permissively licensed HTML / CSS / JavaScript
         structured repository edits
 ```
 
-### ⚙️ Intended workflow
+### Intended workflow
 
 ```text
 TASK
@@ -115,7 +115,7 @@ VALIDATE
 RETURN A CLEAN DIFF
 ```
 
-### 🧩 Two-layer architecture
+### Two-layer architecture
 
 | Layer | Responsibility |
 |---|---|
@@ -127,7 +127,7 @@ RETURN A CLEAN DIFF
 
 ---
 
-# ⚔️ DungeonDex — Commercial Release
+# DungeonDex — Commercial Release
 
 <div align="center">
 
@@ -143,7 +143,7 @@ RETURN A CLEAN DIFF
 
 My flagship commercial browser dungeon crawler. Quick dungeon runs feed into loot, permanent gear upgrades, contracts, and persistent player records, with a mobile-first interface.
 
-### 🎨 Blender Asset Production
+### Blender Asset Production
 
 <img src="https://img.shields.io/badge/Blender-3D%20Asset%20Production-F5792A?style=for-the-badge&logo=blender&logoColor=white" alt="Blender 3D asset production">
 
@@ -153,16 +153,16 @@ My 3D production work focuses on DungeonDex's gear, weapon, and item models in *
 
 ---
 
-# 🗂️ Featured Public Projects
+# Featured Public Projects
 
-### 🛡️ [Merge Guard](https://github.com/keepithandy/merge-guard)
+### [Merge Guard](https://github.com/keepithandy/merge-guard)
 
 A deterministic pull-request risk analyzer and targeted check planner. It highlights changed files, likely breakpoints, and useful checks for reviewers through a CLI and GitHub Action, without requiring an AI provider or API key.
 
 ![Status](https://img.shields.io/badge/status-public_beta-2563eb?style=flat-square)
 ![Release](https://img.shields.io/badge/release-v1.3.0--beta.2-374151?style=flat-square)
 
-### 🏨 [Last Stop Motel](https://github.com/keepithandy/last-stop-motel)
+### [Last Stop Motel](https://github.com/keepithandy/last-stop-motel)
 
 An offline, single-player Three.js management game about inheriting a roadside motel, managing guests and staff, restoring rooms, and settling the debt over seven nights.
 
@@ -170,7 +170,7 @@ An offline, single-player Three.js management game about inheriting a roadside m
 ![Version](https://img.shields.io/badge/version-v1.0.2-374151?style=flat-square)
 ![Offline](https://img.shields.io/badge/offline-playable-0f766e?style=flat-square)
 
-### 📡 [Blacksite Command](https://github.com/keepithandy/blacksite-command)
+### [Blacksite Command](https://github.com/keepithandy/blacksite-command)
 
 A fictional browser command-station game built around **detect → correlate → investigate → respond → contain → report**.
 
@@ -178,7 +178,7 @@ Radar, SIGINT, satellite, and ground sources support incident decisions, while f
 
 ![Status](https://img.shields.io/badge/status-playable_prototype-d97706?style=flat-square)
 
-### 🏰 [GuildMasters](https://github.com/keepithandy/GuildMasters)
+### [GuildMasters](https://github.com/keepithandy/GuildMasters)
 
 A fantasy guild-management strategy game with hero recruitment, contracts, crafting, guildhall growth, faction routes, and tactical encounters.
 
@@ -187,9 +187,9 @@ A fantasy guild-management strategy game with hero recruitment, contracts, craft
 
 ---
 
-# 🧱 Reusable Foundations
+# Reusable Foundations
 
-### ⚡ [Pulse Engine](https://github.com/keepithandy/Pulse-Engine)
+### [Pulse Engine](https://github.com/keepithandy/Pulse-Engine)
 
 A framework-independent JavaScript simulation engine for deterministic, event-driven worlds.
 
@@ -200,7 +200,7 @@ Its scope covers state, actions, rules, scheduling, seeded randomness, snapshots
 
 ---
 
-# 🧰 What I Build With
+# What I Build With
 
 <div align="center">
 
@@ -222,7 +222,7 @@ I like projects with a narrow purpose, explicit state, measurable progress, and 
 
 ---
 
-# 📈 GitHub Activity
+# GitHub Activity
 
 <div align="center">
 
@@ -233,7 +233,7 @@ I like projects with a narrow purpose, explicit state, measurable progress, and 
 
 ---
 
-# 🔗 Find My Work
+# Find My Work
 
 <div align="center">
 

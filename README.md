@@ -1,21 +1,76 @@
 # John / keepithandy
 
 <p align="center">
-  <strong>Browser games · simulations · command interfaces · developer tools</strong><br>
-  Building playable systems and practical tools with JavaScript, Three.js, and Python.
+  <strong>Scratch-trained coding models · browser games · simulations · developer tools</strong><br>
+  Building small, focused systems from the model weights up to the player-facing interface.
 </p>
 
 ---
 
 ## Best Places to Start
 
+- **[Plex Nano](https://github.com/Keepithandy/plex-nano-27m-v0.0.1-p2-24)** — my scratch-trained, repository-native coding-model research project.
 - **[DungeonDex](https://northline-studio.itch.io/dungeondex)** — my commercial browser dungeon crawler, published through Northline Studios.
 - **[Last Stop Motel](https://github.com/keepithandy/last-stop-motel)** — an offline Three.js management game with a seven-night campaign.
 - **[Merge Guard](https://github.com/keepithandy/merge-guard)** — a public beta for pull-request risk analysis and targeted review checks.
 
 ## Current Focus
 
-My work centers on browser games, simulation systems, and readable operational interfaces: dungeon progression, management loops, fictional command stations, and tools that help me review and ship software.
+Right now I am focused on **Plex**: building a genuinely small coding model from scratch, training it on web-code semantics, and pairing it with deterministic repository tooling so the model can focus on planning while the surrounding system handles exact lookup, validation, and diff generation.
+
+Alongside that research, I continue building and expanding browser games, simulation systems, fictional command interfaces, and practical developer tooling.
+
+---
+
+## Plex
+
+### [Plex Nano](https://github.com/Keepithandy/plex-nano-27m-v0.0.1-p2-24)
+
+**Repository-native coding intelligence, trained from scratch.**
+
+Plex is a compact coding-model project built from randomly initialized weights rather than starting from a pretrained coding model. The goal is not a general chatbot; it is a focused implementation engine for understanding narrowly scoped repository tasks and producing the smallest correct change.
+
+`PyTorch` `CUDA` `Python` `TypeScript` `HTML` `CSS` `JavaScript` `local-first`
+
+#### Current research model
+
+| | Current state |
+|---|---|
+| **Model** | Plex Nano |
+| **Parameters** | 27,566,080 |
+| **Context window** | 512 tokens |
+| **Training** | From scratch |
+| **Primary scope** | HTML, CSS, JavaScript |
+| **GPU training** | CUDA |
+| **CPU generation** | Working |
+| **Phase** | Phase 2 — active research |
+
+The current training direction is **Plex Web**: permissively licensed HTML/CSS/JavaScript pretraining first, followed by task-format fine-tuning for structured repository edits.
+
+```text
+TASK
+  ↓
+INSPECT REPOSITORY
+  ↓
+FIND RELEVANT FILES
+  ↓
+BUILD FOCUSED CONTEXT
+  ↓
+PLAN THE SMALLEST CORRECT EDIT
+  ↓
+VALIDATE
+  ↓
+RETURN A CLEAN DIFF
+```
+
+Plex is intentionally split into two layers:
+
+- **Plex Nano** — semantic understanding, edit intent, target classification, structured planning, training, and evaluation.
+- **Plex Code** — deterministic repository scanning, exact source resolution, validation, mutation safety, and diff generation.
+
+> Plex is active research. The training stack and repository tooling work, but the model has not yet demonstrated reliable end-to-end general coding ability on unseen tasks.
+
+---
 
 ### DungeonDex — Commercial Release
 
@@ -76,16 +131,17 @@ A framework-independent JavaScript simulation engine for deterministic, event-dr
 ## What I Build With
 
 <p align="center">
-  <strong>JavaScript · TypeScript · HTML/CSS · React · Three.js · Python · GitHub Actions · Blender</strong>
+  <strong>Python · PyTorch · CUDA · JavaScript · TypeScript · HTML/CSS · React · Three.js · GitHub Actions · Blender</strong>
 </p>
 
-I prefer projects with a clear playable or usable loop, explicit state, durable saves, responsive interfaces, and enough structure to keep expanding without losing control of the codebase.
+I like projects with a narrow purpose, explicit state, measurable progress, and enough structure to keep expanding without losing control of the system — whether that means training a tiny model, building a deterministic tool, or designing a long-running game loop.
 
 ---
 
 ## Find My Work
 
+**Coding-model research:** [Plex Nano on GitHub](https://github.com/Keepithandy/plex-nano-27m-v0.0.1-p2-24)  
 **Commercial games:** [Northline Studios on itch.io](https://northline-studio.itch.io/)  
 **Development:** browse the public repositories linked above.
 
-<sub>Profile focused on current work · updated September 30, 2026</sub>
+<sub>Profile focused on current work · updated October 6, 2026</sub>

@@ -41,6 +41,25 @@ Alongside Plex, I continue building and expanding browser games, simulation syst
 
 ---
 
+## Hands-On Development Work
+
+Beyond the project names, these are the areas I have worked on directly—from early prototypes and implementation through tests, iteration, and documentation.
+
+| Project | Work I've been involved in |
+|---|---|
+| **[Plex Nano](https://github.com/Keepithandy/plex-nano-27m-v0.0.1-p2-24)** | Training a compact coding model from random initialization; building datasets and tokenizer/training workflows; running PyTorch/CUDA experiments; measuring held-out results; and developing deterministic repository tooling around the model. |
+| **[DungeonDex](https://github.com/Keepithandy/DungeonDex)** | Building and refining the town-to-dungeon progression loop, combat and loot systems, gear and spell features, Guild Journal, mobile UI, smoke checks, and release preparation. |
+| **[Last Stop Motel](https://github.com/Keepithandy/last-stop-motel)** | Developing an offline Three.js management game with room and guest systems, staff tasks, a seven-night campaign, persistence and recovery, and compact mobile presentation. |
+| **[Merge Guard](https://github.com/Keepithandy/merge-guard)** | Building deterministic pull-request risk analysis, targeted test recommendations, CLI reports, and reusable GitHub Actions review tooling. |
+| **[Pulse Engine](https://github.com/Keepithandy/pulse-engine)** | Developing reusable JavaScript simulation foundations: events, rule evaluation, seeded randomness, scheduling, snapshots, persistence, and diagnostics. |
+| **[Crypto Trading Engine](https://github.com/Keepithandy/crypto-trading-engine)** | Working on exchange interfaces, Coinbase public-market data, a paper-trading ledger, replay and recovery, local monitoring, and safety-first simulated execution. Real-money trading is not enabled in the current phase. |
+
+**Additional prototypes:** I've also explored a DungeonDex 3D encounter loop in Unreal Engine, including hub-to-arena transitions, spider AI, and boss encounters. This is experimental work, not a released product.
+
+> I care about building things that can actually be tested: playable game loops, measurable model experiments, reproducible simulations, and development tools with clear boundaries.
+
+---
+
 # Plex
 
 <div align="center">
@@ -244,6 +263,6 @@ I like projects with a narrow purpose, explicit state, measurable progress, and 
 
 <br><br>
 
-<sub>Profile focused on current work · updated October 6, 2026</sub>
+<sub>Profile focused on current work · updated October 7, 2026</sub>
 
 </div>

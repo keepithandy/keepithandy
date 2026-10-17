@@ -1,7 +1,4 @@
 <div align="center">
-
-# John / keepithandy
-
 ### Building small models, playable systems, and practical developer tools.
 
 **Scratch-trained coding models · browser games · simulations · developer tooling**
